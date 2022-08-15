@@ -6,13 +6,11 @@ import { NewInitOrderComponent } from './new-init-order/new-init-order.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button'
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { CreateNewComponent } from './create-new/create-new.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NewInitOrderComponent,
-    CreateNewComponent
   ],
   imports: [
     BrowserModule,
